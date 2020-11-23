@@ -168,6 +168,9 @@ body {
   outline-style: hidden;
   font-size: 15px;
   border-radius: 20px;
+  position: absolute;
+  top: 5px;
+  right: 2px;
   /* margin-bottom: 0;
   margin-top: 0px;
   padding: 18px 20px; */
@@ -183,6 +186,8 @@ body {
   align-items: stretch;
   margin-top: 3rem;
   margin-bottom: 0rem;
+  position: relative;
+
   /* box-shadow: 3px 3px 3px rgb(167, 164, 164); */
 }
 .search-input {
