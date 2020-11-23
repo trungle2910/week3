@@ -5,7 +5,7 @@ Created with love by:
 * Lê Thành Trung
 * Duy
 
-View online at https://dripbin-group-4.netlify.app/
+View online at https://dripbin-group4.netlify.app/
 
 # Dripbin introduce
 In Drippin, we would love to introduce you to a photo website that uses data from APIs from Unsplash.com. Dripbin is a visual discovery engine for finding ideas like recipes, home and style inspiration, and more.
