@@ -1,9 +1,9 @@
-const API_KEY = "GLo6me33mAPbPck0jI0XyLEfe4dbvkgjF9kTytMGDQ0";
+const API_KEY = "3Hg3-AEOeWZ8YnS94KcUL-K5_jDM-A-0sVbKT-GSvUI";
 const BASE_URL = "https://api.unsplash.com/photos/?";
 const PER_PAGE = "30";
 
 const defaultURL =
-  "https://api.unsplash.com/photos/?client_id=GLo6me33mAPbPck0jI0XyLEfe4dbvkgjF9kTytMGDQ0&per_page=30";
+  "https://api.unsplash.com/photos/?client_id=3Hg3-AEOeWZ8YnS94KcUL-K5_jDM-A-0sVbKT-GSvUI&per_page=30";
 
 // This function will fetch some images base on the given url
 function getImagesFromSearch(url) {
@@ -58,7 +58,7 @@ function init() {
     if (event.code == "Enter") {
       let searchTerm = searchBar.value;
       let query = searchTerm;
-      const url = `https://api.unsplash.com/search/photos/?client_id=GLo6me33mAPbPck0jI0XyLEfe4dbvkgjF9kTytMGDQ0&query=${query}&per_page=30`;
+      const url = `https://api.unsplash.com/search/photos/?client_id=3Hg3-AEOeWZ8YnS94KcUL-K5_jDM-A-0sVbKT-GSvUI&query=${query}&per_page=30`;
 
       getImagesFromSearch(url);
     }
